@@ -1,35 +1,4 @@
-
-### ENERGY USAGE TRACKER
-```
-energy-usage-tracker/
-├── Pipfile
-├── Pipfile.lock
-├── README.md
-└── lib
-    ├── models
-    │   ├── __init__.py
-    │   └── energy_usage.py
-    ├── cli.py
-    ├── debug.py
-    ├── helpers.py
-    └── seed.py
-```
-
-### `Pipfile`
-```toml
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-
-[dev-packages]
-pylint = "*"
-
-[packages]
-```
-
-### `README.md`
-```markdown
-# Energy Usage Tracker
+### Energy Usage Tracker
 
 ## Project Structure
 
